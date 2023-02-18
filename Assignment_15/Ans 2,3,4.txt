@@ -1,0 +1,59 @@
+																		Assignment-15
+
+Name: Pranav Warade
+Topic: Strings in java
+Course: Java and DSA 
+
+
+Ans-2: First I will create new object as and then create concat() method to concatenate two strings but in new object only it refers their reference value to concatenate two strings we must refer new object reference value to concat() method.
+ 
+Example 1: - public class String1 {
+  		  public static void main(String[] args) {
+       			 String s1=new String("Pranav");
+       			 s1=s1.concat("Warade");
+ System.out.println(s1); //PranavWarade
+}
+}
+
+Example 2: - public class String1 {
+    		public static void main(String[] args) {
+      			  String str1="Pranav";
+        			  String str2="Warade";
+        			  String str3=str1.concat(" ").concat(str2);
+       	 	  System.out.println(str3); //Pranav Warade
+}
+}
+
+
+ 
+Ans-3: I will create strings and use length method to find the length of the string.
+
+Example- public class String1 {
+    		public static void main(String[] args) {
+			String s1="Pranav";
+    		  System.out.println(s1.length());   } // 6
+}
+
+
+
+Ans-4: To compare two Strings in Java I will use == operator it is use to compare the reference of object. And second I will use equals() operator it is use to compare the content of two object.
+
+Example of (==)- 
+public class String1 {
+    public static void main(String[] args) {
+       String s1="pranav";
+       String s2=new String("pranav");
+       System.out.println(s1==s2); // false
+    }
+}
+Explanation: In above program s1 object and s2 object is different so that output of this program is false.
+
+Example of (equals)-
+public class String1 {
+    public static void main(String[] args) {
+       String s1="pranav";
+       String s2=new String("pranav");
+       System.out.println(s1.equals(s2)); // True
+    }
+}
+Explanation: In above program s1 object and s2 object is different but value of two strings is same so that output of this program is True. 

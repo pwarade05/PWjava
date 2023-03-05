@@ -1,0 +1,7 @@
+Ans:- If we create a string if we try to add any operation and if those changes are reflected in the same object then such string is called 
+as Mutable string.
+
+Examples- StringBuffer, StringBuilder
+
+StringBuffer:-
+			
